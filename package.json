@@ -1,0 +1,34 @@
+{
+  "name": "icy-jwt",
+  "version": "0.1.0",
+  "description": "JWT auth middleware toolkit",
+  "main": "lib/auth.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icybit/icy-jwt.git"
+  },
+  "keywords": [
+    "jwt",
+    "jsonwebtoken",
+    "express",
+    "auth",
+    "scopes"
+  ],
+  "author": "Giedrius Sirevicius <giedrius@icybit.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icybit/icy-jwt/issues"
+  },
+  "homepage": "https://github.com/icybit/icy-jwt#readme",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "lib"
+  ],
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
